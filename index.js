@@ -1,6 +1,7 @@
 var animal = 'dog'
 
 function myAnimal() {
+  var animal = 'cat'
   return animal
 }
 
@@ -9,6 +10,14 @@ function yourAnimal() {
   // and the above function both pass?
   // P.S.: You can't just hard-code 'cat' below
   return animal
+}
+
+var animal = 'dog';
+ 
+function makeZoo() {
+  var animal = 'cat';
+ 
+  console.log(`I think I'll put this ${animal} in the zoo.`);
 }
 
 function add2(n) {
